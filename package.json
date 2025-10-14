@@ -11,6 +11,7 @@
     "mkdirp": "^3.0.1"
   },
   "scripts": {
+    "test:mutation": "stryker run",
     "clean": "rimraf ./coverage && mkdirp ./coverage",
     "test": "npm run clean && jest",
     "coverage": "npm run clean && jest --coverage"
